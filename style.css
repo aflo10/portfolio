@@ -1,0 +1,115 @@
+.aboutme{
+	background-image:url(https://i.imgur.com/PkLd80C.png), url(https://i.imgur.com/ivoDEzc.jpg);
+	background-size: 10%,100%;
+	background-position: right top, top;
+	background-repeat: no-repeat, no-repeat;
+
+}
+.projects{
+	background-image: url(https://i.imgur.com/PkLd80C.png), url(https://i.imgur.com/sp0F7C0.png);
+	background-position: right bottom, top; 
+	background-size: 10%, 100%;
+	background-repeat: no-repeat, repeat-y;
+
+}
+.carousel-caption{
+	font-family:'Amatic SC', cursive;
+	color: black;
+	top:50%;
+}
+.carousel-caption1{
+	font-family:'Amatic SC', cursive;
+	color: white;
+	top:50%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.body{
+	background-image:url(https://i.imgur.com/ZiN3svW.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.copyright{
+	position: fixed;
+	bottom: 0;
+	color: black;		
+	background-color: none;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+
+}
+
+h1.welcome{
+
+	position: absolute;
+    left: 0;
+    top: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 140px;
+    color:white;
+}
+
+h1.maintitle {
+	font-size: 50px;
+	color: black;		
+	background-color: none;
+	font-family: 'Amatic SC', cursive;
+
+}
+.subtitles{
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	font-weight: bold;
+	line-height: 200%
+}
+
+h3.descriptions{
+	font-family:'Amatic SC', cursive, bold;
+	color: black;
+	font-family:'Patua One', cursive;
+	font-weight: 900;
+}
+.button {
+	background-color: gainsboro; /*grey*/
+    border:black;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer
+    
+}
+.projbutton {
+	background-color: black; /*grey*/
+    border:white;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+.button1:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button1:hover {
+    background-color: gainsboro;
+    color: black;
+}
